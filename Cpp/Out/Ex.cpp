@@ -14,7 +14,11 @@ int main() {
     //4. Sum of 324 + 553 = ?.
     cout << "Sum of 324 + 553 = " << 324 + 553 << endl;
 
-    //5.
+    //5. Input.
+    string name;
+    cout << "Enter your name: ";
+    cin >> name;
+    cout << "Hello, " << name << "!" << endl;
     
     return 0;
 }
