@@ -34,8 +34,7 @@ int addGcd(int a, int m) {
 }
 
 int main() {
-    int a, m;
-    cin >> a >> m;
+    int a, m; cin >> a >> m;
     addGcd(a,m);
     return 0;
 }
