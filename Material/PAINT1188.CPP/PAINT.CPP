@@ -8,7 +8,7 @@ int main() {
     if (a>=c) {
         if (d>=b) re = d - c;
         else re = b - c;
-    } else if (c>=a) {
+    } else {
         if (d>=b) re = d - a;
         else re = b - a;
     }
