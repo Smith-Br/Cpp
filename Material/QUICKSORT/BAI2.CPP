@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 int partition(int A[], int a, int b) {
     int pivot = A[b];
     int left = a; int right = b-1;
